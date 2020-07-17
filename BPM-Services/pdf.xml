@@ -1,0 +1,19 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:GenerarPDF>
+         <tem:Plantilla>C1-510-X2</tem:Plantilla>
+         <tem:XML><![CDATA[<datos>
+   <POLIZA>VI0002406969</POLIZA>
+   <NOMBRE>
+      <NOMBRE_det>~~13~~PRUEBA YYY ZZZ~~10~~</NOMBRE_det>
+   </NOMBRE>
+   <FECHA_EMISION>27 DE SEPTIEMBRE DE 2018</FECHA_EMISION>
+   <LUGAR_FECHA>MONTERREY, N.L. EL DÍA 28 DE SEPTIEMBRE DE 2018</LUGAR_FECHA>
+   <DIVISION1>500</DIVISION1>
+   <VLONG_CNSF>La documentación contractual y la nota técnica que integran este producto, están registrados ante la Comisión Nacional de Seguros y Fianzas, de conformidad con lo dispuesto por los artículos 36, 36-A, 36-B y 36-D de la Ley General de Instituciones y Sociedades Mutualistas de Seguros, bajo el registro número BADI-S0038-0092-2008  de fecha 21 de octubre de 2008 y 202 de la Ley de Instituciones de Seguros y de Fianzas a partir del día 07 de abril de 2016, con el número RESP-S0038-0131-2016.</VLONG_CNSF>
+</datos>]]></tem:XML>
+         <tem:Motor>Word</tem:Motor>
+      </tem:GenerarPDF>
+   </soapenv:Body>
+</soapenv:Envelope>
